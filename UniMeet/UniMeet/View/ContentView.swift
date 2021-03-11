@@ -9,7 +9,7 @@ struct ContentView: View {
                 Circle()
                     .frame(width: 205, height: 205, alignment: .center)
                     .foregroundColor(Color(#colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)))
-                    .position(x: screen.width/2, y: screen.height/6)
+                    .position(x: screen.width/2, y: screen.height/8)
                 
                 
                 VStack{

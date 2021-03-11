@@ -9,7 +9,6 @@ import SwiftUI
 
 struct SignUpWithView: View {
     var body: some View {
-        NavigationView{
         VStack{
             ZStack{
                 Circle()
@@ -56,7 +55,7 @@ struct SignUpWithView: View {
                                 RoundedRectangle(cornerRadius: 30)
                                     .stroke(Color(#colorLiteral(red: 0.5758672357, green: 0.3443097472, blue: 0.9624852538, alpha: 1)), lineWidth: 2)
                             )
-                    }
+                    }.navigationBarBackButtonHidden(true)
                     
                     .padding(.bottom, 5)
                     
@@ -75,8 +74,6 @@ struct SignUpWithView: View {
                 }
             }
         }
-        }
-        .navigationBarBackButtonHidden(true)
     }
     
 }

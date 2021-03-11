@@ -56,12 +56,8 @@
 		4BBB55A525F2F01900939005 /* UniMeet */ = {
 			isa = PBXGroup;
 			children = (
-				4BBB55A625F2F01900939005 /* UniMeetApp.swift */,
-				4BBB55A825F2F01900939005 /* ContentView.swift */,
-				4BBB55BE25F2F69600939005 /* SignUpWithView.swift */,
-				4BBB55C325F31D1E00939005 /* ChooseYourNumberVIew.swift */,
-				4BBB55AD25F2F01C00939005 /* Preview Assets.xcassets */,
-				4BBB55AA25F2F01C00939005 /* Assets.xcassets */,
+				AC4B8CF125F97A2D00F685A8 /* Model */,
+				AC4B8CEF25F979A700F685A8 /* View */,
 				4BBB55AF25F2F01C00939005 /* Info.plist */,
 				4BBB55AC25F2F01C00939005 /* Preview Content */,
 			);
@@ -71,8 +67,28 @@
 		4BBB55AC25F2F01C00939005 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				4BBB55AD25F2F01C00939005 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC4B8CEF25F979A700F685A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BBB55AA25F2F01C00939005 /* Assets.xcassets */,
+				4BBB55A825F2F01900939005 /* ContentView.swift */,
+				4BBB55C325F31D1E00939005 /* ChooseYourNumberVIew.swift */,
+				4BBB55BE25F2F69600939005 /* SignUpWithView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC4B8CF125F97A2D00F685A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BBB55A625F2F01900939005 /* UniMeetApp.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
